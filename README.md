@@ -1,22 +1,7 @@
-In this project, let's build a **Simple Todos** app by applying the concepts we have learned till now.
+The goal of this enhancement project is to understand the existing Simple Todos code, and add the given functionalities within the existing Simple Todos code.
 
-### Refer to the image below:
+Your existing Simple Todos app, which you have developed, allows users to view a list of todos, and enables them to delete a todo.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-output.gif" alt="simple todos output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/simple-todos-lg-output-v2.png)
-
-</details>
 
 ### Set Up Instructions
 
@@ -47,76 +32,19 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Components Structure</summary>
+<summary>Enhancement Functionalities</summary>
 
 <br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/simple-todos-component-structure.png" alt="simple todos component structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
+Functionality to be added:
+
+To add new todos, include a text input field and an Add button at the top of the todo list.
+To edit the title of a todo, place an Edit button next to each todo item. This button changes to a Save button when clicked.
+To save the updated title, click the Save button, which will then changes back to an Edit button.
+To mark tasks as complete, add a checkbox at the beginning of each todo item. This checkbox, when checked, strikes out the corresponding todo item.
+Implement a functionality to add multiple todos with the same title at once, by entering the title and number of todos, separated by a space, in the input field.
+Ensure your application maintains good CSS styling.
 <br/>
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
 
-Use these files to complete the implementation:
-
-- `src/components/SimpleTodo/index.js`
-- `src/components/SimpleTodo/index.css`
-- `src/components/TodoItem/index.js`
-- `src/components/TodoItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ffc2a0; width: 150px; padding: 10px; color: black">Hex: #ffc2a0</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #ff8542; width: 150px; padding: 10px; color: white">Hex: #ff8542</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
